@@ -1,0 +1,51 @@
+.nav-item a {
+  border: 3px solid transparent;
+}
+/* icon start */
+.main-icon-box{
+    width: 97.2%;
+    margin: 0 auto;
+}
+.icon-box {
+    padding: 0 20px;
+}
+.icons {
+    color: #ffffff;
+    cursor: pointer;
+}
+.icons i {
+    margin-left: 19.2px;
+}
+.icons i:hover {
+    margin-left: 19.2px;
+    color: #f0f0f03b;
+    cursor: pointer;
+}
+
+/* navbar start */
+.mainNavbarContainer {
+    padding: 0 20px;
+  }
+  
+  .logo-inner {
+    padding: 16px 20px 27px 20px;
+  }
+  
+  .navbar-write-container {
+    padding: 20px 20px 0px 20px;
+  }
+  
+  .navbar-write-container ul li {
+    padding: 0 18px;
+  }
+  
+  .navbar-write-container ul li a {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+
+  /* o bolume yanlıslıkla yazılanlar bunlar enınde sonunda kullanılacaklar */
+  /* #search-icon-div{
+    padding: 20px;
+  } */

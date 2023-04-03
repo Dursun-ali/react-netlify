@@ -1,0 +1,26 @@
+.main-articles-section {
+    padding: 50px 0 60px;
+  }
+  
+
+  .articles-section {
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .aticles-H3 {
+    font-size: 36px;
+    color: #353535;
+    margin: 0;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+  }
+  
+  .articles-P {
+    color: #b9b9b9;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    margin: 0;
+  }
