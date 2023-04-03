@@ -1,0 +1,23 @@
+.main-down-counter-section {
+    color: #353535;
+    background: url(https://a6e8z9v6.stackpathcdn.com/apzo/mobileapp/wp-content/uploads/sites/7/2019/09/bg-mb-service-3.jpg);
+    background-position-x: 50%;
+    background-position-y: 35%;
+    padding: 320px 0 130px;
+  }
+  
+  .down-counter-section {
+    width: 87%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .down-counter-H3 {
+    font-size: 26px;
+    color: #ff8585;
+  }
+  
+  .down-counter-P {
+    font-size: 18px;
+    color: #ffffff;
+  }
