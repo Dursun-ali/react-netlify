@@ -81,40 +81,7 @@ function App() {
 
   return (
     <>
-      <div style={{ display: active }} className="wrapper-container"></div>
-
-      <div className="position-relative">
-        <div>
-          <Headers
-            isActive={isActive}
-            isActives={isActives}
-            isPasives={isPasives}
-            isDefauldActive={isDefauldActive}
-          />
-          <ApzoSection />
-          <NewestSection />
-          <FeaturesSection />
-          <CounterSection />
-          <DownCounterSection />
-          <AccordionSection />
-          <UpdatedSection />
-          <PricingSection />
-          <ArticlesSection />
-          <FooterSection />
-          <SecondNavbar
-            isActives={isActives}
-            isPasives={isPasives}
-            isDefauldActive={isDefauldActive}
-            windowWidht={window.innerWidth}
-            menuActive={menuActive}
-            isActive={isActive}
-            open={open}
-            Opens={Opens}
-          />
-        </div>
-        <SearchModalSection isActive={isActive} active={active} />
-        <ScrollNavbarSection open={open} setOpen={setOpen} />
-      </div>
+      mehmet
     </>
   );
 }
