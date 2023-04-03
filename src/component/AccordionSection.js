@@ -1,7 +1,15 @@
+import { useState } from 'react';
 import './AccordionSection.css';
 import AccordionSectionData from './AccordionSectionData';
-
+import AccordionItem from './AccordionItem';
 const AccordionSection = () => {
+
+    const[first,setFirst]=useState(false);
+
+        const change=(e)=>{
+            setFirst(a=>!a);
+        }
+
     return (
         <>
             <div className="main-acordion-section">
@@ -19,53 +27,18 @@ const AccordionSection = () => {
                                     <div className="acordion-section-H3-div">
                                         <h3 className="acordion-section-H3">Core Features</h3>
                                     </div>
+
                                     <div className="accordion" id="accordionExample">
-                                        <div style={{ border: "none" }} className="accordion-item">
-                                            <h2 style={{ border: "none" }} className="accordion-header" id="headingOne">
-                                                <button className="accordion-button collapsed"
-                                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                    aria-expanded="false" aria-controls="collapseOne">
-                                                    <div style={{ height: "20px", width: "30px", position: "relative" }} className="acordion-icons">
-                                                        <i style={{ position: "absolute", right: 0, top: "3px", bottom: 0, left: "5px", color: "#404040", fontSize: "13px" }}
-                                                            className="fa-solid fa-minus"></i>
-                                                        <i style={{ position: "absolute", right: 0, top: "3px", bottom: 0, left: "5px", color: "#404040", fontSize: "13px" }}
-                                                            className="plus-icon fa-solid fa-plus"></i>
-                                                    </div> Live Video
-                                                </button>
-                                            </h2>
-                                            <div id="collapseOne" className="accordion-collapse collapse show"
-                                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                <div style={{ borderBottom: "0.01px solid rgb(229, 229, 229)", paddinBottom: "20px", fontSize: "17px", color: "#5E5E5E" }}
-                                                    className="accordion-body">
-                                                    A social network is a social structure made up of a set of social actors
-                                                    (such as individuals or organizations), sets of dyadic ties, and other
-                                                    social.
-                                                </div>
-                                            </div>
-                                        </div>
                                         {
                                             AccordionSectionData.map((oItem, oIndex) => {
                                                 return (
-                                                    <div key={oIndex} style={{ border: "none" }} className="accordion-item">
-                                                        <h2 style={{ border: "none" }} className="accordion-header" id="headingTwo">
-                                                            <button className="accordion-button collapsed"
-                                                                type="button" data-bs-toggle="collapse" data-bs-target={"#" + oItem.id}
-                                                                aria-expanded="false" aria-controls={oItem.id}>
-                                                                <div style={{ height: "20px", width: "30px", position: "relative" }} className="acordion-icons">
-                                                                    <i style={{ position: "absolute", right: 0, top: "3px", bottom: 0, left: "5px", color: "#404040", fontSize: "13px" }}
-                                                                        className="fa-solid fa-minus"></i>
-                                                                    <i style={{ position: "absolute", right: 0, top: "3px", bottom: 0, left: "5px", color: "#404040", fontSize: "13px" }}
-                                                                        className="plus-icon fa-solid fa-plus"></i>
-                                                                </div> {oItem.title}
-                                                            </button>
-                                                        </h2>
-                                                        <div style={{ border: "none" }} id={oItem.id} className="accordion-collapse collapse"
-                                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                            <div style={{ borderBottom: "0.01px solid rgb(229, 229, 229)", paddingBottom: "20px", fontSize: "17px", color: "#5E5E5E" }}
-                                                                className="accordion-body">
-                                                                {oItem.write}
-                                                            </div>
-                                                        </div>
+                                                    <div key={oIndex}>
+                                                        <AccordionItem 
+                                                            id={oItem.id} 
+                                                            title={oItem.title}
+                                                            write={oItem.write}
+                                                            oIndex={oIndex}
+                                                        />
                                                     </div>
                                                 )
                                             })
