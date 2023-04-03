@@ -1,19 +1,6 @@
-import "./App.css";
-import Headers from "./component/Header";
-import ApzoSection from "./component/ApzoSection";
-import NewestSection from "./component/NewestSection";
-import FeaturesSection from "./component/FeaturesSection";
-import CounterSection from "./component/CounterSection";
-import DownCounterSection from "./component/DownCounterSection";
-import AccordionSection from "./component/AccordionSection";
-import UpdatedSection from "./component/UpdatedSection";
-import PricingSection from "./component/PricingSection";
-import ArticlesSection from "./component/ArticlesSection";
-import FooterSection from "./component/FooterSection";
-import SearchModalSection from "./component/SearchModalSection";
 import { useEffect, useState } from "react";
-import ScrollNavbarSection from "./component/ScrollNavbarSection";
-import SecondNavbar from "./component/SecondNavbar";
+
+import "./App.css";
 
 function App() {
   const [active, setActive] = useState("none");
