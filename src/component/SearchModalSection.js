@@ -1,5 +1,5 @@
 
-import  './SearchModalSection.css';
+import  './searchModalSection.css';
 
 const SearchModalSection = ({active,isActive})=>{
 

@@ -1,4 +1,4 @@
-import './ScrollNavbarSection.css';
+import './scrollNavbarSection.css';
 
 const ScrollNavbarSection = ({open, setOpen}) => {
     return (

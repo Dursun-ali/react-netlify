@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import './SecondNavbar.css';
+import './secondNavbar.css';
 
 const SecondNavbar= ({isActives, isPasives, isDefauldActive, windowWidht, menuActive ,isActive,open,Opens}) =>{
 

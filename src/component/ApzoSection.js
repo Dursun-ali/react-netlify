@@ -1,4 +1,4 @@
-import "./ApzoSection.css";
+import "./apzoSection.css";
 
 const ApzoSection = () => {
   return (

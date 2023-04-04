@@ -1,4 +1,4 @@
-import './DownCounterSection.css'
+import './downCounterSection.css'
 import arrDownCounter from './DownCounterSectionData';
 
 const DownCounterSection = () => {

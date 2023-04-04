@@ -1,4 +1,4 @@
-import './ArticlesSection.css';
+import './articlesSection.css';
 import arrArticles from './ArticlesSectionData'
 
     const ArticlesSection = () =>{

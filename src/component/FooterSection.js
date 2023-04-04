@@ -1,4 +1,4 @@
-import './FooterSection.css';
+import './footerSection.css';
 
 const FeaturesSection= () =>{
     return(

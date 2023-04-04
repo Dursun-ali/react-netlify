@@ -1,4 +1,4 @@
-import "./FeaturesSection.css"
+import "./featuresSection.css"
 import arrFeatures from "./FeaturesSectionData";
 
 const FeaturesSection = () => {

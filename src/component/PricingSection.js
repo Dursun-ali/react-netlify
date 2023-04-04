@@ -1,4 +1,4 @@
-import "./PricingSection.css"
+import "./pricingSection.css"
 import arrPricing from './PricingSectionData';
 
 const PricingSection = () => {

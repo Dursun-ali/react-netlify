@@ -1,4 +1,4 @@
-import './NewestSection.css';
+import './newestSection.css';
 
 const NewestSection = () => {
     return (

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./app.css";
 import Headers from "./component/Header";
 import ApzoSection from "./component/ApzoSection";
 import NewestSection from "./component/NewestSection";

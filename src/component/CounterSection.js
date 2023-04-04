@@ -1,4 +1,4 @@
-import "./CounterSection.css";
+import "./counterSection.css";
 import arrCounter from './CounterSectionData';
 
 const CounterSection = () => {

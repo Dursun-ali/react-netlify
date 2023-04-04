@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './AccordionSection.css';
+import './accordionSection.css';
 import AccordionSectionData from './AccordionSectionData';
 import AccordionItem from './AccordionItem';
 const AccordionSection = () => {

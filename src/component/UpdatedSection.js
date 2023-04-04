@@ -1,4 +1,4 @@
-import './UpdatedSection.css';
+import './updatedSection.css';
 
 const UpdatedSection=() =>{
     return(
