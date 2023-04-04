@@ -4,11 +4,7 @@ import AccordionSectionData from './AccordionSectionData';
 import AccordionItem from './AccordionItem';
 const AccordionSection = () => {
 
-    const[first,setFirst]=useState(false);
 
-        const change=(e)=>{
-            setFirst(a=>!a);
-        }
 
     return (
         <>

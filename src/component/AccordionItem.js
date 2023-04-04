@@ -56,7 +56,7 @@ const AccordionItem = ({id, title, write, oIndex}) => {
       <div
         style={{ border: "none" }}
         id={id}
-        className={id == 'collapse1'? "accordion-collapse collapse show": "accordion-collapse collapse"}
+        className="accordion-collapse collapse"
         aria-labelledby={"heading"+ oIndex}
         data-bs-parent="#accordionExample"
       >
