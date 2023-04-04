@@ -51,7 +51,7 @@ const SecondNavbar= ({isActives, isPasives, isDefauldActive, windowWidht, menuAc
                             className="bar-icon-1 fa-solid fa-bars"></i>
                     </div>
                     <div  className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                        <div className="navbar-write-container-1">
+                        <div className="navbar-write-container-1 d-flex align-items-center">
                             <ul onMouseLeave={() => {isDefauldActive()}}  className="navbar-nav secondNavbar-ul d-flex align-items-center">
                                 <li id="nav-item-0" style={{padding: "0 18px 0 0"}} className="nav-item">
                                     <a onMouseOver={isActives} onMouseLeave={isPasives}  id="nav-item-00" style={{ color: "#ffffff"}}
@@ -78,7 +78,7 @@ const SecondNavbar= ({isActives, isPasives, isDefauldActive, windowWidht, menuAc
                                         aria-current="page" href="#">Shop</a>
                                 </li>
 
-                                <div onClick={()=>{ isActive()}} className="secondNavbar-div" style={{ paddingTop:"8px"}}>
+                                <div onClick={()=>{ isActive()}} className="secondNavbar-div">
                                     <i  
                                      style={{
                         cursor: "pointer",
